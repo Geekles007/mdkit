@@ -8,7 +8,7 @@ const program = new Command();
 program
   .name('mdkit')
   .description('Add registry items into your project (no backend required).')
-  .version('0.0.0');
+  .version('0.1.0');
 
 program
   .command('add')

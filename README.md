@@ -6,7 +6,7 @@ dependency to install. **No database, no backend** — the registry is just
 static JSON on GitHub Pages, and a CLI copies components into your repo.
 
 ```bash
-npx mdkit add callout steps
+npx @mdkit/cli@latest add callout steps tabs
 ```
 
 ## Components
@@ -15,6 +15,7 @@ npx mdkit add callout steps
 | --------- | --------------------------------------------------- |
 | `callout` | note / tip / warning / danger block for MDX content |
 | `steps`   | numbered, vertically-connected steps for guides     |
+| `tabs`    | accessible tabbed content (npm / pnpm / yarn, …)    |
 
 Browse them on the [docs site](https://Geekles007.github.io/mdkit).
 

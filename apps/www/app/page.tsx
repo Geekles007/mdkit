@@ -28,7 +28,7 @@ export default async function Home() {
 
       <h2>Install a component</h2>
       <pre>
-        <code>npx mdkit add callout steps</code>
+        <code>npx @mdkit/cli@latest add callout steps tabs</code>
       </pre>
 
       <h2>Available items</h2>

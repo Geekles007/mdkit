@@ -1,10 +1,22 @@
 {
   "name": "@mdkit/core",
-  "version": "0.0.0",
-  "description": "Headless schema and helpers for the registry.",
+  "version": "0.1.0",
+  "description": "Headless schema and helpers for the mdkit registry.",
   "license": "MIT",
+  "author": "Geekles007",
+  "homepage": "https://github.com/Geekles007/mdkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geekles007/mdkit.git",
+    "directory": "packages/core"
+  },
+  "bugs": "https://github.com/Geekles007/mdkit/issues",
+  "keywords": ["mdx", "markdown", "registry", "schema", "shadcn"],
   "type": "module",
-  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": ["dist", "README.md"],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

@@ -1,13 +1,25 @@
 {
   "name": "@mdkit/cli",
-  "version": "0.0.0",
-  "description": "CLI to add registry items into a project.",
+  "version": "0.1.0",
+  "description": "Add mdkit Markdown/MDX components to your project — shadcn-style, no runtime dependency.",
   "license": "MIT",
+  "author": "Geekles007",
+  "homepage": "https://github.com/Geekles007/mdkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geekles007/mdkit.git",
+    "directory": "packages/cli"
+  },
+  "bugs": "https://github.com/Geekles007/mdkit/issues",
+  "keywords": ["mdx", "markdown", "components", "registry", "shadcn", "cli", "docs"],
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "mdkit": "./dist/index.js"
   },
-  "files": ["dist"],
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
