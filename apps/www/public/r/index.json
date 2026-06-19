@@ -1,0 +1,17 @@
+{
+  "$schema": "https://mdkit/schema/registry-index.json",
+  "name": "mdkit",
+  "homepage": "https://Geekles007.github.io/mdkit",
+  "items": [
+    {
+      "name": "callout",
+      "type": "component",
+      "description": "Highlighted note / tip / warning / danger block for MDX content."
+    },
+    {
+      "name": "steps",
+      "type": "component",
+      "description": "Numbered, vertically-connected steps for tutorials and guides."
+    }
+  ]
+}

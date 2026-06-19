@@ -1,0 +1,15 @@
+{
+  "name": "steps",
+  "type": "component",
+  "description": "Numbered, vertically-connected steps for tutorials and guides.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/steps.tsx",
+      "path": "components/mdkit/steps.tsx",
+      "type": "component"
+    }
+  ]
+}

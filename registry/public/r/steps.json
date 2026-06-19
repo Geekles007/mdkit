@@ -1,0 +1,15 @@
+{
+  "name": "steps",
+  "type": "component",
+  "description": "Numbered, vertically-connected steps for tutorials and guides.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "components/mdkit/steps.tsx",
+      "content": "import { Children, type ReactNode, isValidElement } from 'react';\n\nexport interface StepProps {\n  title: string;\n  children: ReactNode;\n}\n\n/** A single step. Use only as a direct child of <Steps>. */\nexport function Step({ title, children }: StepProps) {\n  return (\n    <li className=\"mdkit-step\">\n      <h3 className=\"mdkit-step__title\">{title}</h3>\n      <div className=\"mdkit-step__body\">{children}</div>\n    </li>\n  );\n}\n\nexport interface StepsProps {\n  children: ReactNode;\n}\n\n/**\n * Numbered steps for tutorials:\n *\n *   <Steps>\n *     <Step title=\"Install\">…</Step>\n *     <Step title=\"Configure\">…</Step>\n *   </Steps>\n *\n * Numbering is driven by a CSS counter; style `.mdkit-steps` to taste.\n */\nexport function Steps({ children }: StepsProps) {\n  const steps = Children.toArray(children).filter(isValidElement);\n  return (\n    <ol className=\"mdkit-steps\" data-count={steps.length}>\n      {steps}\n    </ol>\n  );\n}\n",
+      "type": "component"
+    }
+  ]
+}

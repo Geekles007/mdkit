@@ -1,0 +1,15 @@
+{
+  "name": "callout",
+  "type": "component",
+  "description": "Highlighted note / tip / warning / danger block for MDX content.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/callout.tsx",
+      "path": "components/mdkit/callout.tsx",
+      "type": "component"
+    }
+  ]
+}
