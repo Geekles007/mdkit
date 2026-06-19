@@ -1,11 +1,11 @@
-# @mdkit/cli
+# mdkit-cli
 
 Add [mdkit](https://github.com/Geekles007/mdkit) Markdown/MDX components to your
 project — shadcn-style. The CLI copies the component source into your repo; there
 is no runtime dependency to install.
 
 ```bash
-npx @mdkit/cli@latest add callout steps tabs
+npx mdkit-cli@latest add callout steps tabs
 ```
 
 ## Commands

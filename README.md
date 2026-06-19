@@ -6,7 +6,7 @@ dependency to install. **No database, no backend** — the registry is just
 static JSON on GitHub Pages, and a CLI copies components into your repo.
 
 ```bash
-npx @mdkit/cli@latest add callout steps tabs
+npx mdkit-cli@latest add callout steps tabs
 ```
 
 ## Components
@@ -46,7 +46,7 @@ pnpm check            # lint + format with Biome
 Try the CLI against the local registry without publishing:
 
 ```bash
-pnpm --filter @mdkit/cli build
+pnpm --filter mdkit-cli build
 node packages/cli/dist/index.js add callout --registry "file://$(pwd)/registry/public" --cwd /tmp/demo
 ```
 
