@@ -12,6 +12,11 @@
       "name": "steps",
       "type": "component",
       "description": "Numbered, vertically-connected steps for tutorials and guides."
+    },
+    {
+      "name": "tabs",
+      "type": "component",
+      "description": "Accessible tabbed content for MDX (e.g. npm / pnpm / yarn snippets)."
     }
   ]
 }

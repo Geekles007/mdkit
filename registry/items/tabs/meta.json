@@ -1,0 +1,15 @@
+{
+  "name": "tabs",
+  "type": "component",
+  "description": "Accessible tabbed content for MDX (e.g. npm / pnpm / yarn snippets).",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/tabs.tsx",
+      "path": "components/mdkit/tabs.tsx",
+      "type": "component"
+    }
+  ]
+}
