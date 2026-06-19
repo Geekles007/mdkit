@@ -1,0 +1,15 @@
+{
+  "name": "badge",
+  "type": "component",
+  "description": "Inline status pill (version, new, beta, stable, …) with variants.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/badge.tsx",
+      "path": "components/mdkit/badge.tsx",
+      "type": "component"
+    }
+  ]
+}

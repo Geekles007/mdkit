@@ -1,0 +1,15 @@
+{
+  "name": "linkcard",
+  "type": "component",
+  "description": "Rich link preview with title, description, host, and optional favicon.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/linkcard.tsx",
+      "path": "components/mdkit/linkcard.tsx",
+      "type": "component"
+    }
+  ]
+}

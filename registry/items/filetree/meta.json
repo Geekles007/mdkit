@@ -1,0 +1,15 @@
+{
+  "name": "filetree",
+  "type": "component",
+  "description": "Annotated, collapsible file/folder tree from nested Folder and File.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/filetree.tsx",
+      "path": "components/mdkit/filetree.tsx",
+      "type": "component"
+    }
+  ]
+}

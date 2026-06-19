@@ -19,6 +19,9 @@ npx mdkit-cli@latest add callout steps tabs
 | `codeblock` | code block with copy button, filename, line highlight |
 | `card`      | clickable cards + responsive `CardGrid`             |
 | `accordion` | collapsible sections (single- or multiple-open)     |
+| `badge`     | inline status pill (version / new / beta / …)       |
+| `filetree`  | annotated, collapsible file/folder tree             |
+| `linkcard`  | rich link preview (title, description, host)        |
 
 Browse them on the [docs site](https://Geekles007.github.io/mdkit).
 
