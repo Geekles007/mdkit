@@ -1,0 +1,15 @@
+{
+  "name": "comparison-table",
+  "type": "component",
+  "description": "Feature comparison table — booleans render as ✓ / ✗, text otherwise.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/comparison-table.tsx",
+      "path": "components/mdkit/comparison-table.tsx",
+      "type": "component"
+    }
+  ]
+}

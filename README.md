@@ -22,6 +22,7 @@ npx mdkit-cli@latest add callout steps tabs
 | `badge`     | inline status pill (version / new / beta / …)       |
 | `filetree`  | annotated, collapsible file/folder tree             |
 | `linkcard`  | rich link preview (title, description, host)        |
+| `comparison-table` | feature comparison table (✓ / ✗ per row)     |
 
 Browse them on the [docs site](https://Geekles007.github.io/mdkit).
 
