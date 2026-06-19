@@ -1,0 +1,15 @@
+{
+  "name": "card",
+  "type": "component",
+  "description": "Clickable cards and a responsive CardGrid wrapper for landing pages.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/card.tsx",
+      "path": "components/mdkit/card.tsx",
+      "type": "component"
+    }
+  ]
+}

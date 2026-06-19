@@ -1,0 +1,15 @@
+{
+  "name": "codeblock",
+  "type": "component",
+  "description": "Code block with a copy button, optional filename, and line highlighting.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/codeblock.tsx",
+      "path": "components/mdkit/codeblock.tsx",
+      "type": "component"
+    }
+  ]
+}

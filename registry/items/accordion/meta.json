@@ -1,0 +1,15 @@
+{
+  "name": "accordion",
+  "type": "component",
+  "description": "Collapsible sections (FAQ) with single- or multiple-open behavior.",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "from": "files/accordion.tsx",
+      "path": "components/mdkit/accordion.tsx",
+      "type": "component"
+    }
+  ]
+}

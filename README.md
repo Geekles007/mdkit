@@ -13,9 +13,12 @@ npx mdkit-cli@latest add callout steps tabs
 
 | Name      | What it is                                          |
 | --------- | --------------------------------------------------- |
-| `callout` | note / tip / warning / danger block for MDX content |
-| `steps`   | numbered, vertically-connected steps for guides     |
-| `tabs`    | accessible tabbed content (npm / pnpm / yarn, …)    |
+| `callout`   | note / tip / warning / danger block for MDX content |
+| `steps`     | numbered, vertically-connected steps for guides     |
+| `tabs`      | accessible tabbed content (npm / pnpm / yarn, …)    |
+| `codeblock` | code block with copy button, filename, line highlight |
+| `card`      | clickable cards + responsive `CardGrid`             |
+| `accordion` | collapsible sections (single- or multiple-open)     |
 
 Browse them on the [docs site](https://Geekles007.github.io/mdkit).
 
